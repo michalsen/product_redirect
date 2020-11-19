@@ -1,0 +1,5 @@
+services:
+    product_redirect_event_subscriber:
+        class: Drupal\product_redirect\EventSubscriber\ProductRedirectSubscriber
+        tags:
+            - {name: event_subscriber}
